@@ -3,6 +3,7 @@ Um projeto pessoal (Frontend) estático para site de turismo.
 
 Foi utilizado somente HTML5, CSS3 e JAVASCRIPT puro.
 Feito com responsividade para celulares e tablet.
+Foram aplicadas boas práticas de SEO.
 
 Feito deploy pelo netlify.
 
