@@ -102,8 +102,13 @@ function nextImage() {
 
 function start() {
   setInterval(() => {
-      nextImage();
-  }, time)
+    nextImage();
+  }, time);
 }
 
 window.addEventListener("load", start);
+
+window.addEventListener("load", () => {
+  const loader = document.querySelector(".loader");
+  loader.className += " hidden";
+});
