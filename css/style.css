@@ -605,9 +605,23 @@ section {
   font-size: 2rem;
 }
 
-.footer .links a:hover {
-  background: var(--main-color);
+.footer .share .fa-facebook-f:hover {
+  background-color: rgb(50, 29, 243);
 }
+
+.footer .share .fa-twitter:hover {
+  background-color: rgb(42,169,224);
+}
+.footer .share .fa-instagram:hover {
+  background-color: rgb(169,46,182);
+}
+.footer .share .fa-linkedin:hover {
+  background-color: rgb(10,102,194);
+}
+.footer .share .fa-pinterest:hover {
+  background-color: rgb(183,8,27);
+}
+
 
 .footer .credit {
   font-size: 2rem;
