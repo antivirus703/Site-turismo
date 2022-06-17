@@ -604,6 +604,14 @@ section {
   border: var(--border);
   font-size: 2rem;
 }
+.footer .links a:hover {
+  color: var(--main-color);
+  transition: .2s ease-in-out;
+  -webkit-transition: .2s ease-in-out;
+  -moz-transition: .2s ease-in-out;
+  -ms-transition: .2s ease-in-out;
+  -o-transition: .2s ease-in-out;
+}
 
 .footer .share .fa-facebook-f:hover {
   background-color: rgb(50, 29, 243);
@@ -621,7 +629,6 @@ section {
 .footer .share .fa-pinterest:hover {
   background-color: rgb(183,8,27);
 }
-
 
 .footer .credit {
   font-size: 2rem;
